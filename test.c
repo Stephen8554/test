@@ -2,7 +2,7 @@
 #define definea(a, b) typeof(a) b = 111;
 
 #define offsetof(TYPE, MEMBER) ((size_t) &((TYPE *)0)->MEMBER)
-
+//hello
 #define container_of(ptr, TYPE, MEMBER) (TYPE *)((char*)ptr - offsetof(TYPE, MEMBER))
 
 struct STU
